@@ -1,0 +1,58 @@
+{
+  "intents": [
+    {
+      "intent": "greeting",
+      "examples": ["Hi", "Hello", "Hey", "Good day"],
+      "response": ["Hello! How can I assist you today?", "Hi there! How can I help?"],
+      "context_set": ""
+    },
+    {
+      "intent": "overview",
+      "examples": ["What does your product do?", "Can you explain your service?", "Tell me about your SaaS"],
+      "response": ["Our SaaS product provides cloud-based project management solutions. It helps teams collaborate, track tasks, and manage projects efficiently."],
+      "context_set": ""
+    },
+    {
+      "intent": "features",
+      "examples": ["What features do you offer?", "Tell me about the functionalities", "What can I do with your product?"],
+      "response": ["Our product offers features such as task management, time tracking, Gantt charts, team collaboration tools, and integration with third-party apps."],
+      "context_set": ""
+    },
+    {
+      "intent": "pricing",
+      "examples": ["How much does it cost?", "What are your pricing plans?", "Do you offer a free trial?"],
+      "response": ["Our pricing plans start at $29.99 per user per month for basic features. We also offer a Pro plan at $49.99 per user per month with advanced reporting and analytics. A free 14-day trial is available for you to explore our features."],
+      "context_set": ""
+    },
+    {
+      "intent": "support",
+      "examples": ["How can I get support?", "Do you offer customer support?", "What support options do you have?"],
+      "response": ["We provide 24/7 customer support via live chat, email, and phone. Our comprehensive knowledge base and community forums are also available for self-service support."],
+      "context_set": ""
+    },
+    {
+      "intent": "integration",
+      "examples": ["Can your product integrate with other tools?", "What integrations do you support?", "Do you have API support?"],
+      "response": ["Our product integrates seamlessly with popular tools such as Slack, Trello, and Google Workspace. We also provide API support for custom integrations."],
+      "context_set": ""
+    },
+    {
+      "intent": "security",
+      "examples": ["Is my data secure?", "How do you ensure data security?", "What security measures do you have?"],
+      "response": ["Security is our top priority. We employ AES-256 encryption, regular security audits, and strict access controls to safeguard your data."],
+      "context_set": ""
+    },
+    {
+      "intent": "trial",
+      "examples": ["Do you offer a trial period?", "Can I try your product before purchasing?", "Is there a demo available?"],
+      "response": ["Yes, we offer a 30-day free trial with full access to all features. Sign up today to experience how our product can benefit your team."],
+      "context_set": ""
+    },
+    {
+      "intent": "goodbye",
+      "examples": ["Goodbye", "See you later", "I need to go"],
+      "response": ["Thank you for your interest! Feel free to reach out if you have more questions. Have a great day!"],
+      "context_set": ""
+    }
+  ]
+}
