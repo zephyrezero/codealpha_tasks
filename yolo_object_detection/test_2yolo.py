@@ -3,6 +3,9 @@ from ultralytics import YOLO
 import cv2
 import argparse
 import supervision as sv
+import torch
+
+torch.cuda.set_device(0)
 
 
 def parse_arguments() -> argparse.Namespace:
